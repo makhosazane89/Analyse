@@ -1,6 +1,10 @@
 def date_parser(dates):
     """
+
      This function takes a list containing the date and time strings and 
+
+    This function takes a list containing the date and time strings and 
+
     splits them, then only returns the list of dates without the time.
 
     for example:
@@ -18,7 +22,7 @@ def date_parser(dates):
                        '2019-11-29',
                        '2019-11-29',
                        '2019-11-29']
-                       
+
     """
     date_only = []
     for item in dates:
